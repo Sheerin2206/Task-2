@@ -77,3 +77,16 @@
 - Dropped column:
 ```sql
 ALTER TABLE employees DROP emp_age;
+
+SELECT * FROM employees;
+SELECT * FROM department;
+SELECT * FROM salary;
+SELECT * FROM attendance;
+
+SELECT * FROM employees WHERE emp_email IS NULL;
+
+DELETE FROM employees WHERE emp_id IS NULL;
+UPDATE employees SET emp_email = 'mike.d@abc.com' WHERE emp_id = 5;
+UPDATE employees SET emp_email = 'mike.d@abc.com' WHERE emp_id = 5;
+
+
